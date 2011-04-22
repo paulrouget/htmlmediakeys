@@ -1,0 +1,8 @@
+Add "media" events support to Firefox.
+Works only on Linux (need help for Windows and Mac).
+
+Supports Mediakeys (play, pause, previous, next).
+Supports Media Events from the content ("sound", "nosound")
+and add a "playing" icon to the tab.
+
+See the GrooveShark Page Mode in js/lib/main.js for examples.
