@@ -1,29 +1,11 @@
-/* -*- Mode: C; indent-tabs: t; c-basic-offset: 9; tab-width: 9 -*- */
 /*
- *  This file is part of audacious-gnome-shortcut plugin for audacious
- *
- *  Copyright (c) 2007-2008    Sascha Hlusiak <contact@saschahlusiak.de>
- *  Name: plugin.c
- *  Description: plugin.c
- *
- *  audacious-gnome-shortcut is free software; you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation; either version 2 of the License, or
- *  (at your option) any later version.
- *
- *  audacious-gnome-shortcut is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with audacious-gnome-shortcut; if not, write to the Free Software
- *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ * Code from: http://audacious-media-player.org/plugins
+ * Original Source Code: http://hg.atheme.org/audacious-plugins/audacious-plugins/file/262b7a484275/src/gnomeshortcuts/gnomeshortcuts.c
+ * By John Lindgren <john.lindgren@tds.net>
+ * 
+ * Updated by Paul Rouget <paul@mozilla.com>
+ * Removed all the Audacious references and add support for Javascript Callbacks
  */
-
-/*
-#include <config.h>
-*/
 
 #include <string.h>
 #include <dbus/dbus.h>
